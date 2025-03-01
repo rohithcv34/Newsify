@@ -10,7 +10,7 @@ const NewsList = ({ articles }) => {
             <img
               src={article.image}
               alt={article.title}
-              className="w-full h-auto rounded-lg mb-3"
+              className="w-full h-auto max-w-[400px] mx-auto mb-3"
             />
           )}
 
